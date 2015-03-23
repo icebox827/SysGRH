@@ -1,0 +1,125 @@
+2015/03/21 01:54:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Demo 404 page" was not found.' in C:\wamp\www\PNH\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp\www\PNH\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 C:\wamp\www\PNH\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp\www\PNH\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp\www\PNH\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\PNH\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\PNH\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp\www\PNH\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\wamp\www\PNH\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\wamp\www\PNH\SysGRH\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/PNH/SysGRH/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/PNH/SysGRH/index.php?r=site/page&view=buttons_and_icons
+---
+2015/03/21 02:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Demo 404 page" was not found.' in C:\wamp\www\PNH\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp\www\PNH\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 C:\wamp\www\PNH\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp\www\PNH\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp\www\PNH\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\PNH\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\PNH\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp\www\PNH\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\wamp\www\PNH\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\wamp\www\PNH\SysGRH\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/PNH/SysGRH/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/PNH/SysGRH/index.php?r=site/page&view=buttons_and_icons
+---
+2015/03/21 05:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "Demo 404 page" was not found.' in C:\wamp\www\PNH\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp\www\PNH\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('Demo 404 page')
+#1 C:\wamp\www\PNH\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp\www\PNH\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp\www\PNH\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\PNH\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\PNH\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp\www\PNH\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\wamp\www\PNH\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\wamp\www\PNH\SysGRH\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/PNH/SysGRH/index.php?r=site/page&view=Demo+404+page
+HTTP_REFERER=http://localhost/PNH/SysGRH/index.php?r=site/page&view=forms
+---
+2015/03/23 15:03:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "arme".' in C:\wamp\www\PNH\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\PNH\framework\web\CController.php(270): CController->missingAction('arme')
+#1 C:\wamp\www\PNH\framework\web\CWebApplication.php(282): CController->run('arme')
+#2 C:\wamp\www\PNH\framework\web\CWebApplication.php(141): CWebApplication->runController('site/arme')
+#3 C:\wamp\www\PNH\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\PNH\SysGRH\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PNH/SysGRH/index.php?r=site/arme
+---
+2015/03/23 15:03:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Arme".' in C:\wamp\www\PNH\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\PNH\framework\web\CController.php(270): CController->missingAction('Arme')
+#1 C:\wamp\www\PNH\framework\web\CWebApplication.php(282): CController->run('Arme')
+#2 C:\wamp\www\PNH\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Arme')
+#3 C:\wamp\www\PNH\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\PNH\SysGRH\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PNH/SysGRH/index.php?r=site/Arme
+---
+2015/03/23 15:03:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Armes".' in C:\wamp\www\PNH\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\PNH\framework\web\CController.php(270): CController->missingAction('Armes')
+#1 C:\wamp\www\PNH\framework\web\CWebApplication.php(282): CController->run('Armes')
+#2 C:\wamp\www\PNH\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Armes')
+#3 C:\wamp\www\PNH\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\PNH\SysGRH\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PNH/SysGRH/index.php?r=site/Armes
+---
+2015/03/23 15:04:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Affectation".' in C:\wamp\www\PNH\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\PNH\framework\web\CController.php(270): CController->missingAction('Affectation')
+#1 C:\wamp\www\PNH\framework\web\CWebApplication.php(282): CController->run('Affectation')
+#2 C:\wamp\www\PNH\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Affectatio...')
+#3 C:\wamp\www\PNH\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\PNH\SysGRH\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PNH/SysGRH/index.php?r=site/Affectation
+---
+2015/03/23 15:04:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "affectation".' in C:\wamp\www\PNH\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\PNH\framework\web\CController.php(270): CController->missingAction('affectation')
+#1 C:\wamp\www\PNH\framework\web\CWebApplication.php(282): CController->run('affectation')
+#2 C:\wamp\www\PNH\framework\web\CWebApplication.php(141): CWebApplication->runController('site/affectatio...')
+#3 C:\wamp\www\PNH\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\PNH\SysGRH\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PNH/SysGRH/index.php?r=site/affectation
+---
+2015/03/23 15:28:24 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.mbmenu.MbMenu" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\PNH\framework\YiiBase.php:323
+Stack trace:
+#0 C:\wamp\www\PNH\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#1 C:\wamp\www\PNH\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'application.ext...', Array)
+#2 C:\wamp\www\PNH\framework\web\CBaseController.php(180): CBaseController->createWidget('application.ext...', Array)
+#3 C:\wamp\www\PNH\SysGRH\themes\shadow_dancer\views\layouts\main.php(61): CBaseController->widget('application.ext...', Array)
+#4 C:\wamp\www\PNH\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\PNH...')
+#5 C:\wamp\www\PNH\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\PNH...', Array, true)
+#6 C:\wamp\www\PNH\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\wamp\\www\\PNH...', Array, true)
+#7 C:\wamp\www\PNH\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="con...')
+#8 C:\wamp\www\PNH\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="con...')
+#9 C:\wamp\www\PNH\framework\web\CBaseController.php(214): COutputProcessor->run()
+#10 C:\wamp\www\PNH\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#11 C:\wamp\www\PNH\SysGRH\themes\shadow_dancer\views\layouts\column1.php(7): CBaseController->endContent()
+#12 C:\wamp\www\PNH\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\PNH...')
+#13 C:\wamp\www\PNH\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\PNH...', Array, true)
+#14 C:\wamp\www\PNH\framework\web\CController.php(784): CBaseController->renderFile('C:\\wamp\\www\\PNH...', Array, true)
+#15 C:\wamp\www\PNH\SysGRH\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\wamp\www\PNH\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\wamp\www\PNH\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\PNH\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\PNH\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\PNH\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\wamp\www\PNH\framework\web\CWebApplication.php(141): CWebApplication->runController(false)
+#22 C:\wamp\www\PNH\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#23 C:\wamp\www\PNH\SysGRH\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/PNH/SysGRH/index.php?r=affectation/create
+HTTP_REFERER=http://localhost/PNH/SysGRH/index.php?r=site/login
+---

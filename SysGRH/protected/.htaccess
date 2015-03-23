@@ -1,0 +1,6 @@
+Option +SymLinksIfOwnerMatch
+RewriteEngine on	
+RewriteBase /Systeme de Gestion des Ressources Humaines
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\?*$ index.php/$1 [L,QSA]
