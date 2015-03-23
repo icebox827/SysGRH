@@ -4,13 +4,17 @@ $this->breadcrumbs=array(
 	'Form Elements',
 );
 ?>
-<h1>Form Elements</h1>
+<h1>Formulaire d'Identification</h1>
 <div class="container showgrid">
     <div class="form">
         <div class="span-12">
         <div class="row">
-            <label for="text" class="required">Name:</label>
-            <?php echo  CHtml::textField('text', 'Sample content....',array('style' => 'width:300px'));?>
+            <label for="text" class="required">Nom:</label>
+            <?php echo  CHtml::textField('text', 'Bob',array('style' => 'width:300px'));?>
+        </div>
+		<div class="row">
+            <label for="text" class="required">Prenom:</label>
+            <?php echo  CHtml::textField('text', 'Billy',array('style' => 'width:300px'));?>
         </div>
        <div class="row">
             <label for="text3">Phone #:</label>
@@ -19,7 +23,7 @@ $this->breadcrumbs=array(
         </div>
 
         <div class="row">
-            <label for="dropdown">Satus:</label>
+            <label for="dropdown">Satut:</label>
             <?php echo CHtml::dropDownList('dropdown', 'In-active', array('Active'=>'Active','In-active'=>'In-active'),array('style' => 'width:100px'));?>
             <span class="field_name_help">Please select status.</span>
         </div>
@@ -38,11 +42,11 @@ $this->breadcrumbs=array(
         
         <div class="span-11 last">
             <div class="row">
-                <label for="street">Street Adress:</label>
+                <label for="street">Adresse:</label>
                 <?php echo  CHtml::textField('street');?>
             </div>
             <div class="row">
-                <label for="city">City:</label>
+                <label for="city">Adresse Anterieure:</label>
                 <?php echo  CHtml::textField('city');?>
             </div>
             <div class="row">
@@ -77,7 +81,3 @@ $this->breadcrumbs=array(
 
 </div>
 <br />
-<div class="flash-notice">
-<p>This is a "static" page. You may change the content of this page
-by updating the file <tt><?php echo __FILE__; ?></tt>.</p>
-</div>
